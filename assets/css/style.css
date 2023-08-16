@@ -1,0 +1,54 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.totales{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ingreso_tarea {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .ingreso_tarea2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+   
+  }
+  .ingreso_tarea input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .ingreso_tarea button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .ingreso_tarea button:hover {
+    background-color: rgb(64, 182, 34);
+  }
